@@ -6,7 +6,7 @@ Before explaining everything this is the installation process:
 
 1.  [Install node js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 2.  download this project from codesandbox or github
-3.  Run this command inside igisoro*js folder for installation: \_npm install*
+3.  Run this command inside igisoro_js folder for installation: _npm install_
 4.  Run this command to lunch the project: _npm start_
 5.  **Run this command to lunch train the model: _npm run train_**
 
