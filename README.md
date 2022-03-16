@@ -6,7 +6,7 @@ Before explaining everything this is the installation process:
 
 1.  [Install node js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 2.  download this project [github](https://github.com/Blezzoh/igisorojs)
-3.  Run this command inside igisoro_js folder for installation: _npm install_
+3.  Run this command inside igisoro*js folder for installation: \_npm install*
 4.  **Run this command to train the model: _npm run train_**
 5.  Run this command to lunch the project: _npm start_
 
@@ -17,7 +17,8 @@ Alternatively visit [replit.com](https://replit.com/@Blezzoh/igisorojs) then:
 3. Run _npm install_ for installation
 4. Run _npm run train_ to train the model
 5. Run _npm start_ to view the project
-6. \*_Or click the button run_
+
+_In order to learn more about this game please visit the page https://mancala.fandom.com/wiki/Igisoro. This page and wikipedia are the only pages, I found online that talks about this game._
 
 ## How the Model trains
 
