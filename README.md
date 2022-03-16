@@ -5,10 +5,19 @@ This project uses reinforcement learning to generate effective moves for the com
 Before explaining everything this is the installation process:
 
 1.  [Install node js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-2.  download this project from codesandbox or github
+2.  download this project [github](https://github.com/Blezzoh/igisorojs)
 3.  Run this command inside igisoro_js folder for installation: _npm install_
-4.  Run this command to lunch the project: _npm start_
-5.  **Run this command to lunch train the model: _npm run train_**
+4.  **Run this command to train the model: _npm run train_**
+5.  Run this command to lunch the project: _npm start_
+
+Alternatively visit [replit.com](https://replit.com/@Blezzoh/igisorojs) then:
+
+1. Fork the project
+2. on the right side click shell
+3. Run _npm install_ for installation
+4. Run _npm run train_ to train the model
+5. Run _npm start_ to view the project
+6. \*_Or click the button run_
 
 ## How the Model trains
 
