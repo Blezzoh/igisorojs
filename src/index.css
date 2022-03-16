@@ -1,13 +1,82 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 17px !important;
+  color: black !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.ball {
+  font-size: 40px;
+  font-weight: bold;
+  /* margin: 15px; */
+  color: black;
+}
+.grid {
+  background: #6e4700;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 30px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  min-height: 100px;
+  /* max-height: 100px; */
+  max-width: 1000px;
+}
+.hole {
+  /* flex-grow: 1; */
+  min-width: 10%;
+  max-width: 10%;
+  display: inline-block;
+  overflow-wrap: break-word;
+  background: #c78100;
+  border: 1px solid white;
+  border-radius: 60px;
+  padding: 5px 30px;
+}
+.row.middle-bottom {
+  margin-top: 7px;
+}
+.row.middle-top {
+  margin-bottom: 7px;
+}
+.row.edge-bottom {
+  margin-top: 2px;
+}
+.row.edge-top {
+  margin-top: 2px;
+}
+.top,
+.bottom {
+  margin: 15px;
+}
+.bottom {
+  float: right;
+}
+.center {
+  text-align: center;
+}
+.moves {
+  margin-right: auto;
+}
+tbody {
+  border: 1px solid black;
+  padding: 1px;
+}
+.game-wiki {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px;
+  margin-left: 30px;
 }
